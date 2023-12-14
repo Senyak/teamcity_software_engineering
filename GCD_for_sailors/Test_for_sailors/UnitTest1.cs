@@ -13,7 +13,6 @@ namespace Test_for_sailors
             Assert.AreEqual(Euclid.GCD(2, 10), 2);
             Assert.AreEqual(Euclid.GCD(121, 11), 11);
             Assert.AreEqual(Euclid.GCD(121, 33), 11);
-            Assert.AreEqual(Euclid.GCD(121, 33), 11);
         }
 
         [TestMethod]
