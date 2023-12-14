@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace GCD_for_sailors
 {
-    internal class Program
+    public class Euclid
     {
-        static int GCD(int a, int b)
+        public static int GCD(int a, int b)
         {
+            if (a == 0 && b == 0)
+                throw new ArgumentException("all numbers are 0 at the same time ");
+
             while (b != 0)
             {
                 var t = b;
@@ -21,7 +24,7 @@ namespace GCD_for_sailors
         static void Main(string[] args)
         {
             Console.WriteLine("Алгоритм Евклида");
-            IM GONNA RUIN THIS PROJECT HEAVE HO
+            //IM GONNA RUIN THIS PROJECT HEAVE HO
             Console.WriteLine("Наибольший общий делитель чисел {0} и {1} равен {2}", 294, 162, GCD(294, 162));
             Console.ReadLine();
         }
