@@ -21,6 +21,7 @@ namespace GCD_for_sailors
         static void Main(string[] args)
         {
             Console.WriteLine("Алгоритм Евклида");
+            IM GONNA RUIN THIS PROJECT HEAVE HO
             Console.WriteLine("Наибольший общий делитель чисел {0} и {1} равен {2}", 294, 162, GCD(294, 162));
             Console.ReadLine();
         }
